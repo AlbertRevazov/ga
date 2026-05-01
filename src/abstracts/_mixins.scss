@@ -1,0 +1,11 @@
+@mixin container() {
+  max-width: 1057px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+@mixin large-fs(){
+font-size: 36px;
+color: #000;
+
+}
