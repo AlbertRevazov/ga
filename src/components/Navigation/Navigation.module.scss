@@ -3,13 +3,14 @@
 @import '../../fonts/fonts.scss';
 
 .nav {
-  font-family: '5';
+  font-family: '8';
+  font-weight: 700;
   color: $secondary-color;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
-  background-color: $secondary-color;
+  gap: 24px;
   @include container();
   @include large-fs();
 }

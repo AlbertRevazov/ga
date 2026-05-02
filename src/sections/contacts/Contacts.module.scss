@@ -1,12 +1,11 @@
 @import '../../abstracts/mixins';
 
-.footer {
+.contacts{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  color: white;
-  font-family: 3;
-  @include container();
+  background-color: pink;
 
+  @include containerWithMinHeight ();
+  @include large-fs();
 }

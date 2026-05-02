@@ -1,0 +1,11 @@
+@import '../../abstracts/mixins';
+
+.history{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkorange;
+  font-family: '2';
+  @include containerWithMinHeight();
+  @include large-fs();
+}

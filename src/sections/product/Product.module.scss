@@ -1,0 +1,11 @@
+@import '../../abstracts/mixins';
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: '9';
+  background-color: #35a3f182;
+  @include containerWithMinHeight();
+  @include large-fs();
+}

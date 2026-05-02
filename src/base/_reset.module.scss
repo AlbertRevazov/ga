@@ -5,8 +5,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  margin: 0;
   font-family: '1';
+  background-color: #6d6c6c2f;
 }
 
 a,
